@@ -1,0 +1,32 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.829)), url('../src/images/background1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+
+:root {
+    --backup-text: rgb(0, 110, 255);
+    --alike-color: rgb(0, 50, 138);
+    --golden-color: #e2c000;
+    --color-primary:rgb(34, 34, 34);
+    --main-text: rgb(255, 255, 255);
+    --icon-back: rgb(15, 15, 15);
+    --background-color: black;
+  }
+     
